@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1640781724106,
+  "index": "https://starsibi.github.io/birthday/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://starsibi.github.io/birthday/favicon.ico",
+        "https://starsibi.github.io/birthday/index.html",
+        "https://starsibi.github.io/birthday/main.e2eee593a7a7970e.js",
+        "https://starsibi.github.io/birthday/manifest.webmanifest",
+        "https://starsibi.github.io/birthday/polyfills.fe4ff3852a6d076b.js",
+        "https://starsibi.github.io/birthday/runtime.883b2013641ce672.js",
+        "https://starsibi.github.io/birthday/scripts.37c6a60f6acc053f.js",
+        "https://starsibi.github.io/birthday/styles.a3f1584e9faa7aa7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://starsibi.github.io/birthday/assets/Appsettings.json",
+        "https://starsibi.github.io/birthday/assets/FriendsAndFamily.json",
+        "https://starsibi.github.io/birthday/assets/Memories.json",
+        "https://starsibi.github.io/birthday/assets/icons/icon-128x128.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-144x144.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-152x152.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-192x192.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-384x384.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-512x512.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-72x72.png",
+        "https://starsibi.github.io/birthday/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://starsibi.github.io/birthday/assets/Appsettings.json": "e062d8374acac8304e15022bf16b0913f48f9d15",
+    "https://starsibi.github.io/birthday/assets/FriendsAndFamily.json": "8795e74e66641612b748b4688c5d47874f12babd",
+    "https://starsibi.github.io/birthday/assets/Memories.json": "b0b48ad73a3149b7f17dec548374681fc278f68a",
+    "https://starsibi.github.io/birthday/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://starsibi.github.io/birthday/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://starsibi.github.io/birthday/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://starsibi.github.io/birthday/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://starsibi.github.io/birthday/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://starsibi.github.io/birthday/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://starsibi.github.io/birthday/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://starsibi.github.io/birthday/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://starsibi.github.io/birthday/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://starsibi.github.io/birthday/index.html": "9252311015683cab9e0d792d0a36c61c251925c8",
+    "https://starsibi.github.io/birthday/main.e2eee593a7a7970e.js": "8907bf6dbacbd9c39c98483434e8a44dc70778ef",
+    "https://starsibi.github.io/birthday/manifest.webmanifest": "31706a562cf4f682b94de3d077c55e42c47e7c8a",
+    "https://starsibi.github.io/birthday/polyfills.fe4ff3852a6d076b.js": "14b516968e26fb36fd1d95951f524d90c04ee3e9",
+    "https://starsibi.github.io/birthday/runtime.883b2013641ce672.js": "4996a4ec8bfe5d6705bba0426e7d0a2aad57ca98",
+    "https://starsibi.github.io/birthday/scripts.37c6a60f6acc053f.js": "b3c28b39d4b5b91cee69c4cec46e31e64272d023",
+    "https://starsibi.github.io/birthday/styles.a3f1584e9faa7aa7.css": "3b6950beb9b100cb868c16fcce73ff75fb15820f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="timeline">
+    <div class="timeline-row" *ngFor="let memory of memories">
+      <div class="timeline-time">
+        {{memory.DateTime | date}}
+      </div>
+      <div class="timeline-content">
+        <i class="icon-attachment"></i>
+        <h4>Admin theme!</h4>
+        <p>{{memory.Message}}</p>
+        <div class="thumbs">
+          <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar1.png"
+            alt="[memory.ImageUrl]">
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-row">
+      <div class="timeline-content">
+        <p class="m-0">Loading...</p>
+      </div>
+    </div>
+
+  </div>
+</div>

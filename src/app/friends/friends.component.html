@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let friend of friendsAndFamily">
+      <div class="card" (click)="cardClicked(friend)">
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" class="card-img-top" alt="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{friend.Name}}</h5>
+          <p class="card-text">{{friend.Message}}</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>        
+  </div>
+</div>
+
+<app-friendsmodal></app-friendsmodal>

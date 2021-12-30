@@ -1,0 +1,18 @@
+<div class="modal" [ngStyle]="{'display':(displayStyle ? 'block' : 'none')}" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBasicLabel"  *ngIf="modalData">{{modalData.Name}}</h5>
+          <button type="button" class="btn-close" aria-label="Close" (click)="hideModal()"></button>
+        </div>
+        <div class="modal-body"  *ngIf="modalData">
+            <img src="https://www.w3schools.com/howto/img_avatar2.png" class="card-img-top" alt="card-img-top">
+            <hr>            
+            <p>{{modalData.Message}}</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="hideModal()">Close</button>         
+        </div>
+      </div>
+    </div>
+  </div>
