@@ -1,4 +1,6 @@
-export interface FriendsAndFamily {    
-     Name : string;
-     Message : string;    
+export interface FriendsAndFamily {
+     Name: string;
+     Message: string;
+     Link: string;
+     Linkname: string;
 }

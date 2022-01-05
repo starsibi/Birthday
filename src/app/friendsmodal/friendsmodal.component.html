@@ -9,6 +9,7 @@
             <img src="https://www.w3schools.com/howto/img_avatar2.png" class="card-img-top" alt="card-img-top">
             <hr>            
             <p>{{modalData.Message}}</p>
+            <a *ngIf="modalData.Link" target="_blank" href="{{modalData.Link}}">{{modalData.Linkname}}</a>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" (click)="hideModal()">Close</button>         

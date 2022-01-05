@@ -1,7 +1,9 @@
 [
     {
         "Name":"Name 1",
-        "Message":"Im Message 1"
+        "Message":"Im Message 1",
+        "Link":"https://starsibi.github.io/Birthday/login",
+        "Linkname":"Welcome"
     },
     {
         "Name":"Name 2",
