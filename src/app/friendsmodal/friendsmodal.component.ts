@@ -12,8 +12,13 @@ export class FriendsmodalComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.playSound();
   }
-
+ 
+  playSound(){
+    const audio = new Audio("../../assets/i-did-it-message-tone.mp3");
+    audio.play();
+  }
   showModal(friend:FriendsAndFamily){
     this.modalData = friend;
     this.displayStyle = true;        

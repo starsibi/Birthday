@@ -16,6 +16,12 @@ export class MemoriesComponent implements OnInit {
     this.responseFileReaderService.getJSON("./assets/Memories.json").subscribe(data => {
       this.memories = data;
     })
+    this.playSound();
+  }
+
+  playSound(){
+    const audio = new Audio("../../assets/i-did-it-message-tone.mp3");
+    audio.play();
   }
 
 }
