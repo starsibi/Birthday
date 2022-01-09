@@ -2,22 +2,20 @@
   <div class="timeline">
     <div class="timeline-row" *ngFor="let memory of memories">
       <div class="timeline-time">
-        {{memory.DateTime | date}}
+        {{memory.DateTime | date:'short':'UTC'}}
       </div>
       <div class="timeline-content">
-        <i class="icon-attachment"></i>
-        <h4>Admin theme!</h4>
-        <p>{{memory.Message}}</p>
+        <h4>{{memory.Message}}</h4>
         <div class="thumbs">
-          <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar1.png"
-            alt="[memory.ImageUrl]">
+          <img class="img-fluid rounded" src="{{memory.ImageUrl}}"
+            alt="{{memory.Message}}">
         </div>
       </div>
     </div>
 
     <div class="timeline-row">
       <div class="timeline-content">
-        <p class="m-0">Loading...</p>
+        <p class="m-0">Coming Soon...</p>
       </div>
     </div>
 
