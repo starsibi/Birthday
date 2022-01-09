@@ -21,7 +21,7 @@ export class AuthenticationService {
   }
 
   login(username:string, password:string){    
-    if(username == this.validUserName && password == this.validPassword){
+    if(username == this.validUserName.toLowerCase() && password == this.validPassword.toLowerCase()){
       this.loggedIn.next(true);      
       this.router.navigate(["/"]);
     }
