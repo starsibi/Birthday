@@ -8,7 +8,7 @@ import { ResponseFileReaderService } from '../_services/response-file-reader.ser
   styleUrls: ['./memories.component.sass']
 })
 export class MemoriesComponent implements OnInit {
-
+  audio:any = new Audio("../../assets/VTV.mp3");
   memories: Memories[] = [];
   constructor(private responseFileReaderService: ResponseFileReaderService) { }
 
@@ -20,8 +20,13 @@ export class MemoriesComponent implements OnInit {
   }
 
   playSound(){
-    const audio = new Audio("../../assets/i-did-it-message-tone.mp3");
-    audio.play();
+    this.audio.play();
   }
-
+  ngOnDestroy() {
+    // destroy audio here
+    if(this.audio) {
+      this.audio.pause();
+      this.audio = null;
+    }
+  }
 }

@@ -1,27 +1,51 @@
 [
     {
-        "Name":"Name 1",
-        "Message":"Im Message 1",
-        "Link":"https://starsibi.github.io/Birthday/login",
-        "Linkname":"Welcome"
-    },
-    {
-        "Name":"Name 2",
-        "Message":"Im Message 2"
-    },
-    {
-        "Name":"Name 3",
-        "Message":"Im Message 3"
-    },
-    {
-        "Name":"Name 4",
-        "Message":"Im Message 4"
+        "Name": "Priya",
+        "Message": "Hi Shobi many more happiee returns of the day. Unoda life best ta amaya yeanodaya valithukal. Unakoru nalla hunsband amanjirukaru.Avara nalla pathuko.Avaru inum unna nalla parhukuvaru. Thank you",
+        "Link": "https://starsibi.github.io/Birthday/login",
+        "Linkname": "Priya Wishes",
+        "ImageUrl": "../assets/FriendsImages/Priya.jpeg"
     },{
-        "Name":"Name 5",
-        "Message":"Im Message 5"
+        "Name": "Nadiya",
+        "Message": "Hi Shobi many more happiee returns of the day. Birthday va nalla enjoy pannu. Unaku veanungaratha la husband kita keatu vangiko entha chance sa vitratha first bday veara okayva",
+        "Link": "https://starsibi.github.io/Birthday/login",
+        "Linkname": "Nadiya Wishes",
+        "ImageUrl": "../assets/FriendsImages/Nadiya.jpeg"
     },
     {
-        "Name":"Name 6",
-        "Message":"Im Message 6"
+        "Name": "Vijesh",
+        "Message": "Wishing you very very very very happy birthday. yeapavum siricha mugathoda santhosama iru. Prithivi va nalla poathuko. Life la yeapavumea happy ya jolly ya eru. god bless you and nammaloda beautiful memories na yeanga erunthu soldrathunu therila 2nd year la erunthu final year varaikum and athukappuram nallanchi varusham veara veara companyla veara veara yeaduthula work pannalum nammaloda friendship yeanaikumea same ma erunthirukku. So oru pure oru nalla friendu nee atha neenachi yeanaku pearumaiya eruku santhosama erukku. Athu after marriagejum continue aguthunu neenaikumbothu romba santhosama erukku. Ooty bike trip la ponom with prithivi and arjun yeallam romba happy ya erunthathu. Isha trip athukappuram neeraya beatiful memories in college la eruku athula neenachi pakkumbothu romba santhosama erukku. So antha memories oda yeannaium marakkama yeapaium happy ya eru. Will keep in touch always  bye bye take care.",
+        "Link": "https://starsibi.github.io/Birthday/login",
+        "Linkname": "Vijesh Memories",
+        "ImageUrl": "../assets/FriendsImages/Vijesh.jpeg"
+    },
+    {
+        "Name": "Durga",
+        "Message": "Happy Birthday!!!. One unforgettable memory: Jan 2020 Bday - Andha photo ah thedi edukuradhukula bday vea mudinju",
+        "Link": "https://starsibi.github.io/Birthday/login",
+        "Linkname": "Jan 2020 Bday Memory",
+        "ImageUrl": "../assets/FriendsImages/Dhurga.jpeg"
+    },
+    {
+        "Name": "Poo",
+        "Message": "stay blessed always be happy",
+        "ImageUrl": "../assets/FriendsImages/Poo.jpeg"
+    },
+    {
+        "Name": "Meena",
+        "Message": "Happpy birthday sowmi😍🥰...It's your special njy to the core...May your birthday be an awesome as you are..I hope all your birthday wishes come true this year",
+        "ImageUrl": "../assets/FriendsImages/Meena.jpeg"
+    },
+    {
+        "Name": "Anu",
+        "Message": "Hy Sowmika happiest bday to you. I really miss your cooking actually and also wish you a great year ahead neraya travel panunga neeraya yeadatha explore pannunga. I really miss you and wish you a very happy birthday and i wish you to get all the love and success this year and happy birthday to you",
+        "Link": "https://starsibi.github.io/Birthday/login",
+        "Linkname": "Anu Wishes",
+        "ImageUrl": "../assets/FriendsImages/Anu.jpeg"
+    },
+    {
+        "Name": "Dharshini",
+        "Message": "Very Happy Birthday Sowmi, couldn’t come to your marriage and I hope you got the best hubby as I can see from the efforts he is taking now !! Happy Married Life Soffi and Wishing you a lifelong happiness 😊. Happie birthday sofi. Wish you many many more happiee returns of the day",
+        "ImageUrl": "../assets/FriendsImages/Darshini.jpeg"
     }
 ]

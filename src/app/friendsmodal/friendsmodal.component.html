@@ -6,10 +6,12 @@
           <button type="button" class="btn-close" aria-label="Close" (click)="hideModal()"></button>
         </div>
         <div class="modal-body"  *ngIf="modalData">
-            <img src="https://www.w3schools.com/howto/img_avatar2.png" class="card-img-top" alt="card-img-top">
+            <img src="{{modalData.ImageUrl}}" class="card-img-top" alt="{{modalData.Name}}">
             <hr>            
             <p>{{modalData.Message}}</p>
-            <a *ngIf="modalData.Link" target="_blank" href="{{modalData.Link}}">{{modalData.Linkname}}</a>
+            <div class="memorylink">
+              <a *ngIf="modalData.Link" target="_blank" href="{{modalData.Link}}" >{{modalData.Linkname}}</a>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" (click)="hideModal()">Close</button>         

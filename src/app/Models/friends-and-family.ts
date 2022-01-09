@@ -3,4 +3,5 @@ export interface FriendsAndFamily {
      Message: string;
      Link: string;
      Linkname: string;
+     ImageUrl:string;
 }
